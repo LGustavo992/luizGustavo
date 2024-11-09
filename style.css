@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    }
+    
+    
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #4a90e2;
+        color: #fff;
+    }
+    
+header div:first-child {
+        display: flex;
+        align-items: center;
+    }
+    
+header h1 {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    
+header img {      
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    
+header h2 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+header ul {
+        list-style: none;
+        display: flex;
+    }
+    
+header ul li {
+        margin-left: 20px;
+    }
+    
+    header ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 12px;
+        transition: background-color 0.3s;
+    }
+    
+header ul li a:hover {
+        
+       
+    background-color: #357ab8;
+        border-radius: 5px;
+    }
+    
+    /* Seção principal */
+
+.principal {
+        padding: 40px;
+        background-color: #fff;
+        text-align: center;
+        
+    }
+    
+.principal h1 {
+        font-size: 30px;
+        color: #4a90e2;
+        margin-bottom: 20px;
+    }
+    
+    .principal p {
+        font-size: 18px;
+        background: linear-gradient(45deg, #2c75b4,#64a4dc);
+        color: #ffffff;
+        width: 1200px;
+        height: 350px;
+        padding: 10px;
+        margin: auto;
+        border: #4a90e2, 10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        line-height: 1.8;
+        border-radius: 20%;
+        }
+
+        
+    /* Programa Impulsiona */
+#programaImpulsiona {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px 20px;
+        background-color: #e9f1f7;
+        gap: 30px;
+    }
+    
+#programaImpulsiona .imagemImpulso img {
+        width: 350px;
+        height: 390px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+        margin: 25px;
+    }
+    
+#programaImpulsiona .texto-sobre {
+        width: 500px;
+    }
+    
+#programaImpulsiona h2 {
+        color: #4a90e2;
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    
+#programaImpulsiona h3 {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+    
+#programaImpulsiona p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.8;
+    }
+    
+    /* Contato */
+    
+#contato {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    }
+    
+#contato h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    }
+    
+#contato h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    }
+    
+#contato button {
+    background-color: #fff;
+    color: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+#contato button:hover {
+    background-color: #357ab8;
+    color: #fff;
+    }
